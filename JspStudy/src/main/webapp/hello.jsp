@@ -15,5 +15,6 @@
 	out.println("<h1>"+str+"<h1>"); //system만 빼면 웹에 출력됨(내장태그)
 	//document.write("<h1>"+str+"<h1>"); //JS구문은 작성불가능, <script>태그사용불가
 %>
+<%=str %>
 </body>
 </html>
